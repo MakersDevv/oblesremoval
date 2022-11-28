@@ -2,7 +2,7 @@ import Layout from "../components/layout";
 import { GrMail } from "react-icons/gr";
 import { BsTelephoneFill } from "react-icons/bs";
 import contactStyles from "../styles/contact.module.css";
-import contactImage from "../public/contact.PNG";
+import contactImage from "../public/contact.png";
 import Image from "next/image";
 
 export default function Contact() {
