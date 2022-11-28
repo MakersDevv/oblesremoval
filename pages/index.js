@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import homeStyles from "../styles/Home.module.css";
 import Layout from "../components/layout";
 import hero from "../public/hero.jpg";
@@ -26,7 +27,7 @@ export default function Home() {
           <small className={homeStyles.heroTextSecondary}>
             We make moving extremely easy for you
           </small>
-          <button className={homeStyles.heroButton}>Contact</button>
+          <button className={homeStyles.heroButton}><Link href="/contact">Contact</Link></button>
         </div>
       </div>
       <section className={homeStyles.about}>
