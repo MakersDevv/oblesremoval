@@ -1,0 +1,45 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff802b;
+    width: 100%;
+    height: 5rem;
+    color: #000;
+    text-align: center;
+    padding: .5em 1em;
+    padding-top: .8em;
+}
+
+.plug {
+    position: absolute;
+    right: 0;
+    padding-right: 2rem;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    padding-left: 2rem;
+}
+
+@media screen and (max-width: 625px) {
+    .footer {
+        flex-direction: column;
+        height: fit-content;
+        padding: 1em 0;
+    }
+    .socials {
+        position: relative;
+        padding: 0;
+        margin-bottom: .5em;
+    }
+    .plug {
+        position: relative;
+        padding: 0;
+        margin-top: .5em;
+    }
+}

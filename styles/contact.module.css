@@ -1,0 +1,32 @@
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text {
+    width: 100%;
+    font-size: 3rem;
+}
+
+.contactDetailsContainer {
+    background-color: #ff802b91;
+    padding: 1em 3em;
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+
+.contactDetail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .contactContainer {
+        flex-direction: column;
+    }
+}
