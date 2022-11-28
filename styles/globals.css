@@ -52,7 +52,7 @@ h2:after {
   height: 2.5px;
   position: relative;
   vertical-align: middle;
-  width: 30%;
+  width: 20%;
 }
 
 h2:before {
@@ -219,7 +219,7 @@ h2:after {
     position: absolute;
     right: 0;
     top: 0;
-    padding: 0.5em 1em 0 0;
+    padding: 1.2em 1em 0 0;
     z-index: 15;
   }
   .nav-socials {
@@ -287,4 +287,10 @@ h2:after {
   .nav-list {
     width: 50%;
   }
-} /*# sourceMappingURL=Logo.css.map */
+}
+
+@media screen and (max-width: 375px) {
+  .logo {
+    font-size: 1.5rem;
+  }
+}

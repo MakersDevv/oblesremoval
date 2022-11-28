@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import homeStyles from "../styles/Home.module.css";
 import Layout from "../components/layout";
-import truck from "../public/truck.jpg";
+import hero from "../public/hero.jpg";
 import moving from "../public/peopleMoving.jpg";
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
       <div className={homeStyles.heroContainer}>
         <Image
-          src={truck}
+          src={hero}
           alt="Picture of moving truck"
           width={1064.8}
           height={550}

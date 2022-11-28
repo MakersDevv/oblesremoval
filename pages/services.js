@@ -1,6 +1,6 @@
 import Layout from "../components/layout";
 import Image from "next/image";
-import pic4 from "../public/pic4.png";
+import pic4 from "../public/pic4.jpg";
 import pic5 from "../public/pic5.png";
 import pic9 from "../public/pic9.jpg";
 import serviceStyles from "../styles/serviceStyles.module.css";
