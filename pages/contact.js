@@ -2,7 +2,7 @@ import Layout from "../components/layout";
 import { GrMail } from "react-icons/gr";
 import { BsTelephoneFill } from "react-icons/bs";
 import contactStyles from "../styles/contact.module.css";
-import contactImage from "../public/contact.png";
+// import contactImage from "../public/contact.png";
 import Image from "next/image";
 
 export default function Contact() {
@@ -17,13 +17,13 @@ export default function Contact() {
               Tell us about your move
             </span>
           </div>
-          <Image
+          {/* <Image
             src={contactImage}
             alt="Standing with client"
             height={404.25}
             width={310.5}
             className={contactStyles.image}
-          />
+          /> */}
         </div>
         <div className={contactStyles.contactDetailsContainer}>
           <h2>Our Details</h2>
