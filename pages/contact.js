@@ -2,7 +2,7 @@ import Layout from "../components/layout";
 import { GrMail } from "react-icons/gr";
 import { BsTelephoneFill } from "react-icons/bs";
 import contactStyles from "../styles/contact.module.css";
-import contact from "../public/contact.png";
+import client from "../public/client.PNG";
 import Image from "next/image";
 import { useEffect } from "react";
 import AOS from "aos";
@@ -65,7 +65,7 @@ export default function Contact() {
             </span>
           </div>
           <Image
-            src={contact}
+            src={client}
             alt="Standing with client"
             height={404.25}
             width={310.5}
