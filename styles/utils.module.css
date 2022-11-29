@@ -1,0 +1,24 @@
+.boldText {
+    font-weight: bold;;
+}
+
+.linedHeader:before,
+.linedHeader:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 2.5px;
+  position: relative;
+  vertical-align: middle;
+  width: 20%;
+}
+
+.linedHeader:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.linedHeader:after {
+  left: 0.5em;
+  margin-right: -50%;
+}

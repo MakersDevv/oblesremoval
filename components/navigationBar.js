@@ -38,16 +38,18 @@ export default function NavBar() {
 
   return (
     <nav className="navigation">
-      <span className="logo">
-        <Image
-          src={logo}
-          alt="Logo"
-          height={60}
-          width={60}
-          style={{ borderRadius: "50%", marginRight: ".5em" }}
-        />
-        Obles Removal
-      </span>
+      <Link href="/">
+        <span className="logo">
+          <Image
+            src={logo}
+            alt="Logo"
+            height={60}
+            width={60}
+            style={{ borderRadius: "50%", marginRight: ".5em" }}
+          />
+          Obles Removal
+        </span>
+      </Link>
       <div className="nav-items-container">
         <div onClick={toggleNav} className="nav-icon-container">
           {showNavItems ? <HiX size="2rem" /> : <HiMenuAlt4 size="2rem" />}
@@ -70,7 +72,7 @@ export default function NavBar() {
               href="https://www.instagram.com/oblesremoval/"
               target="_blank"
               rel="noreferrer"
-              style={{ color: "#fff", marginRight: ".5em"}}
+              style={{ color: "#fff", marginRight: ".5em" }}
               onClick={closeNav}
             >
               <FaInstagram size="1.7rem" color="#000" />
@@ -79,7 +81,7 @@ export default function NavBar() {
               href="https://www.facebook.com/people/Obles-Removal-company/100063752329743/"
               target="_blank"
               rel="noreferrer"
-              style={{ color: "#fff", marginLeft: ".5em"}}
+              style={{ color: "#fff", marginLeft: ".5em" }}
               onClick={closeNav}
             >
               <FaFacebook size="1.7rem" color="#000" />

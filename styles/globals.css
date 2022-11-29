@@ -18,16 +18,6 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: #fff;
-    background: black;
-  }
-}
-
 h1, h2, h3 {
   text-align: center;
 }
@@ -42,27 +32,6 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
-}
-
-h2:before,
-h2:after {
-  background-color: #000;
-  content: "";
-  display: inline-block;
-  height: 2.5px;
-  position: relative;
-  vertical-align: middle;
-  width: 20%;
-}
-
-h2:before {
-  right: 0.5em;
-  margin-left: -50%;
-}
-
-h2:after {
-  left: 0.5em;
-  margin-right: -50%;
 }
 
 .navigation {
@@ -81,6 +50,7 @@ h2:after {
   align-items: center;
   font-size: 1.8rem;
   font-weight: bold;
+  cursor: pointer;
 }
 .logo img {
   height: 60px;

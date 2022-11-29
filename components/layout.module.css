@@ -14,6 +14,10 @@
     margin-bottom: 2rem;
 }
 
+.whatsApp:hover {
+    transform: scale(1.1);
+}
+
 @media screen and (min-width: 1500px){
     .main {
         padding: 0 20em;
