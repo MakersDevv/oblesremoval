@@ -20,6 +20,7 @@ export default function Services() {
       <Head>
         <title>Services</title>
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         <meta
           name="description"
           content="Our services include packing, loading, unloading, and unpacking—no matter where you are headed!"
@@ -53,7 +54,7 @@ export default function Services() {
       <div className={serviceStyles.servicesContainer}>
         <div
           className={serviceStyles.description}
-          data-aos="fade-left"
+          data-aos="fade-in"
           data-aos-delay="500"
           data-aos-duration="500"
           data-aos-easing="ease-in"
@@ -90,7 +91,7 @@ export default function Services() {
         </div>
         <div
           className={`${serviceStyles.description} ${serviceStyles.reverseDescription}`}
-          data-aos="fade-right"
+          data-aos="fade-in"
           data-aos-delay="700"
           data-aos-duration="500"
           data-aos-easing="ease-in"
@@ -117,7 +118,7 @@ export default function Services() {
         </div>
         <div
           className={serviceStyles.description}
-          data-aos="fade-left"
+          data-aos="fade-in"
           data-aos-delay="900"
           data-aos-duration="500"
           data-aos-easing="ease-in"

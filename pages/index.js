@@ -20,6 +20,7 @@ export default function Home() {
       <Head>
         <title>Home</title>
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         <meta
           name="description"
           content="We are an established leader in moving goods. Let us do all the heavy lifting for you with
@@ -89,7 +90,7 @@ export default function Home() {
             data-aos-duration="500"
             data-aos-easing="ease-in"
           >
-            <Link href="/contact">Contact Us</Link>
+            <Link href="/contact" style={{color: "#000"}}>Contact Us</Link>
           </button>
         </div>
       </div>
