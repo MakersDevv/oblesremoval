@@ -2,8 +2,8 @@ import Layout from "../components/layout";
 import { GrMail } from "react-icons/gr";
 import { BsTelephoneFill } from "react-icons/bs";
 import contactStyles from "../styles/contact.module.css";
-import Client from "../public/Client.png";
-import Image from "next/image";
+// import Client from "../public/Client.png";
+// import Image from "next/image";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -64,13 +64,13 @@ export default function Contact() {
               Tell us about your move
             </span>
           </div>
-          <Image
+          {/* <Image
             src={Client}
             alt="Standing with client"
             height={404.25}
             width={310.5}
             className={contactStyles.image}
-          />
+          /> */}
         </div>
         <div
           className={contactStyles.contactDetailsContainer}
