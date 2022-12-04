@@ -123,6 +123,12 @@
   margin-top: 1em;
 }
 
+@media screen and (min-width: 1500px) {
+  .aboutImage {
+    width: 50%;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .aboutContainer {
     flex-direction: column;

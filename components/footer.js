@@ -21,7 +21,7 @@ export default function Footer() {
       </div>
       <span>&copy; Obles Removal 2022</span>
       <span className={footerStyles.plug}>
-        Site made by <a href="https://makersdev.com/">MakersDev</a>
+        Site made by <a href="https://makersdev.com/" className={footerStyles.siteLink}>MakersDev</a>
       </span>
     </footer>
   );

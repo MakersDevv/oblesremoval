@@ -1,3 +1,8 @@
+@font-face {
+    font-family: grifter;
+    src: url("../styles/grifterbold.otf");
+}
+
 .footer {
     display: flex;
     flex-direction: row;
@@ -16,6 +21,12 @@
     position: absolute;
     right: 0;
     padding-right: 2rem;
+}
+
+.siteLink {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: grifter;
 }
 
 .socials {
